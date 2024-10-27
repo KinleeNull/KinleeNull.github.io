@@ -1,4 +1,3 @@
-# KinleeNull.github.io
 # Arch Linux Install
 Download Arch ISO and check the SHA256 hash, which can be check with:
 
