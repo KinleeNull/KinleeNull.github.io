@@ -212,11 +212,11 @@ sudo pacman -S zsh
 sudo pacman -S openssh
 ```
 ### Create Aliases
+Nano into ~/.bashrc and add aliases at the bottom.
 These are the aliases I chose:
 ```shell
-alias ll='ls-la'
+alias ll='ls-la' #shows detailed file listing
 ```
-#shows detailed file listing
 ```shell
 alias install='sudo pacman -S'
 ```
