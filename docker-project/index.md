@@ -1,4 +1,6 @@
 # Installing WordPress on Windows through Docker
+###### Description: This documentation will walk you through how to install WordPress through Docker on a Windows machine.
+
 - Install docker desktop for Windows through this link:  https://docs.docker.com/desktop/windows/install/
 
 - In a terminal, cd into your Desktop (for simplicity) and make a directory (I called it docker-local-wordpress). Then, open that directory up in Visual Studio Code.
@@ -65,20 +67,21 @@ networks:
     driver: bridge
 ```
 You'll then create another file in that directory named ".env" and add this information to it:  
-(you can change the user and password, as it will be used later)
 ```shell
 MYSQL_DATABASE=wordpress
-MYSQL_USER=wp_user
+MYSQL_USER=wp_user  # you can change the user and password, as it will be used later
 MYSQL_PASSWORD=wp_password
 MYSQL_ROOT_PASSWORD=root_password
 ```
+
 Then, in your terminal, cd into that directory you made and run:
 ```shell
 docker compose up
 ```
-- It will run for a minute, but you'll know it's complete when you see this in your terminal, a few lines up from the bottom:
-![alt text](<Screenshot 2024-11-13 201723.png>)
-Once you see that, go to a web browser and in the searchbar, type in ```localhost:8080```.
+It will run for a minute, but you'll know it's complete when you see this in your terminal, a few lines up from the bottom:
+![Screenshot 2024-11-13 201723](https://github.com/user-attachments/assets/cf9fbdea-9255-4546-9f18-c054be8036c6)
+
+- Once you see that, go to a web browser and in the searchbar, type in ```localhost:8080```.
 
 - This should take you to the WordPress image, where you'll choose your language, provide a site name, username, password, and email. Then click ```Install WordPress```.
 
@@ -92,4 +95,4 @@ To stop running the docker container: in a terminal, cd into the wordpress direc
 ```shell
 docker compose down
 ```
-- I used this video as a resource and it gives a good walkthrough of the process: https://youtu.be/gEceSAJI_3s?si=2HMM_ctKBD-DyOhQ
+##### I used this video as a resource and it gives a good walkthrough of the process: https://youtu.be/gEceSAJI_3s?si=2HMM_ctKBD-DyOhQ
