@@ -1,7 +1,7 @@
 # Installing WordPress on Windows through Docker
 ###### Description: This documentation will walk you through how to install WordPress through Docker on a Windows machine.
 
-- Install docker desktop for Windows through this link:  https://docs.docker.com/desktop/windows/install/
+- Install docker desktop for Windows through this link: [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/)
 
 - In a terminal, cd into your Desktop (for simplicity) and make a directory (I called it docker-local-wordpress). Then, open that directory up in Visual Studio Code.
 
@@ -97,4 +97,4 @@ To stop running the docker container: in a terminal, cd into the wordpress direc
 ```shell
 docker compose down
 ```
-##### I used this video as a resource and it gives a good walkthrough of the process: https://youtu.be/gEceSAJI_3s?si=2HMM_ctKBD-DyOhQ
+##### I used this video as a resource and it gives a good walkthrough of the process: [https://youtu.be/gEceSAJI_3s?si=2HMM_ctKBD-DyOhQ](https://youtu.be/gEceSAJI_3s?si=2HMM_ctKBD-DyOhQ)
