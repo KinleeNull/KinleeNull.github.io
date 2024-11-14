@@ -78,9 +78,10 @@ Then, in your terminal, cd into that directory you made and run:
 ```shell
 docker compose up
 ```
-It will run for a minute, but you'll know it's complete when you see this in your terminal, a few lines up from the bottom:
-![Screenshot 2024-11-13 201723](https://github.com/user-attachments/assets/cf9fbdea-9255-4546-9f18-c054be8036c6)
-
+It will run for a minute, but you'll know it's complete when you see this message in your terminal, a few lines up from the bottom:
+```
+Complete! WordPress has been successfully copied to /var/www/html
+```
 - Once you see that, go to a web browser and in the searchbar, type in ```localhost:8080```.
 
 - This should take you to the WordPress image, where you'll choose your language, provide a site name, username, password, and email. Then click ```Install WordPress```.
