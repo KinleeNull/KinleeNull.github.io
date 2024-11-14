@@ -1,5 +1,5 @@
 # Installing WordPress on Windows through Docker
-###### Description: This documentation will walk you through how to install WordPress through Docker on a Windows machine.
+##### Description: This documentation will walk you through how to install WordPress through Docker on a Windows machine.
 
 - Install docker desktop for Windows through this link: [https://docs.docker.com/desktop/windows/install/](https://docs.docker.com/desktop/windows/install/)
 
