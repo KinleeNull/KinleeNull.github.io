@@ -86,7 +86,8 @@ Complete! WordPress has been successfully copied to /var/www/html
 
 - This should take you to the WordPress image, where you'll choose your language, provide a site name, username, password, and email. Then click ```Install WordPress```.
 
-- Proceed to login with the credentials you just created and you'll be brought to the WordPress Admin Dashboard!
+- Proceed to login with the credentials you just created and you'll be brought to the WordPress Admin Dashboard that should look like this:
+![WordPress Admin Dashboard](/docs/assets/WordPress.png)
 
 - From your dashboard, you can edit posts and customize your site.
 
